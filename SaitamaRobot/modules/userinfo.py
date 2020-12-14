@@ -274,7 +274,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'God'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'mia support'."
+        text += "\n\nThis user is member of 'Gamerz bots'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Dragon'."
@@ -290,7 +290,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/aboutmiakhalifabot">?</a>]'.format(
+        text += ' [<a href="https://t.me/Gamerzbots">?</a>]'.format(
             bot.username)
 
     try:
@@ -460,7 +460,7 @@ def set_about_bio(update: Update, context: CallbackContext):
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "Erm... yeah, I only trust mia support to set my bio.")
+                "Erm... yeah, I only trust GAMERZ bots support to set my bio.")
             return
 
         text = message.text
@@ -516,7 +516,7 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/aboutmiakhalifabot)
+ Come and see [HP System explained](https://t.me/Gamerzbots)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
