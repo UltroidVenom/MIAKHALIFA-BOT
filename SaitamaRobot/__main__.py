@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/6a95a97bee10856c5c19d.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/88a1139a1bb57f65d251b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 MIA KHALIFA is hosted on one of Gamerfucker's Servers and doesn't require any donations as of now but \
@@ -219,8 +219,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 INSTA MEMES",
-                             url="https://www.instagram.com/sastememeofficial/")
+                             text="🗄 MEMES",
+                             url="https://t.me/sastememes")
                      ]]))
     else:
         update.effective_message.reply_text(
