@@ -5,8 +5,7 @@ from telegram.ext import CommandHandler, run_async, Filters
 
 count = 0
 @run_async
-	message = update.effective_message
-	global count
+	
 
 	chatId = update.message.chat_id
     
