@@ -272,8 +272,5 @@ __help__ = """
  - /videosong <songname artist(optional)>: uploads the video song in it's best quality available
  - /lyrics <songname artist(optional)>: sends the complete lyrics of the song provided as input
 
-**Also check out - **
- @MissmiakhalifabotMP3
- @MissmiakhalifabotMP4
-   ]
+
 
