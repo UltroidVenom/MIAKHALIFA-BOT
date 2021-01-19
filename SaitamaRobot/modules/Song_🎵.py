@@ -267,9 +267,6 @@ async def download_lyrics(v_url):
                 caption="Message length exceeded max limit! Sending as a text file.")
     else:
         await v_url.reply(reply)
-file_help = file_help.replace(".py", "")
-file_helpo = file_help.replace("_", " ")
-
 __help__ = """
  - /song <songname artist(optional)>: uploads the song in it's best quality available
  - /videosong <songname artist(optional)>: uploads the video song in it's best quality available
