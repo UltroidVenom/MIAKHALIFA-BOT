@@ -5,7 +5,6 @@ from telegram.ext import CommandHandler, run_async, Filters
 
 count = 0
 @run_async
-def music(bot: Bot, update: Update, args):
 	message = update.effective_message
 	global count
 
