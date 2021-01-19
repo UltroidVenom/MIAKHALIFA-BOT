@@ -23,7 +23,6 @@ async def is_register_admin(chat, user):
 JULIASONG = "@MissmiakhalifabotMP3"
 JULIAVSONG = "@MissmiakhalifabotMP4"
 
-(pattern="^/song (.*)")
 async def download_song(v_url):
     approved_userss = approved_users.find({})
     for ch in approved_userss:
