@@ -1,4 +1,4 @@
-from julia import CMD_HELP
+from SaitamaRobot import CMD_HELP
 import time
 import os
 import json
@@ -11,14 +11,14 @@ from youtube_dl.utils import (DownloadError, ContentTooShortError,
                               MaxDownloadsReached, PostProcessingError,
                               UnavailableVideoError, XAttrMetadataError)
 
-from julia import tbot
+from SaitamaRobot import tbot
 from telethon import types
 from telethon.tl import functions
 from julia.events import register
 from youtubesearchpython import SearchVideos
 from tswift import Song
 from pymongo import MongoClient
-from julia import MONGO_DB_URI
+from SaitamaRobot import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
