@@ -2,12 +2,6 @@ import html
 import time
 import datetime
 from telegram.ext import CommandHandler, run_async, Filters
-import requests, logging
-from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
-from telegram import Message, Chat, Update, Bot, MessageEntity
-from SaitamaRobot import dispatcher, OWNER_ID, SUDO_USERS, SUPPORT_USERS, WHITELIST_USERS
-from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
-from SaitamaRobot.modules.helper_funcs.chat_status import user_admin
 
 count = 0
 @run_async
