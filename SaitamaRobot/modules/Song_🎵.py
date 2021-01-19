@@ -267,7 +267,6 @@ async def download_lyrics(v_url):
                 caption="Message length exceeded max limit! Sending as a text file.")
     else:
         await v_url.reply(reply)
-file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
