@@ -215,12 +215,12 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🧾 Getting started guide",
-                             url="https://t.me/Gamerzbots")
+                             url="https://t.me/Gamerzbots/115")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🗄 MEMES",
-                             url="https://t.me/sastememes")
+                             text="⚡ SUPPORT",
+                             url="https://t.me/Gamerzbots")
                      ]]))
     else:
         update.effective_message.reply_text(
