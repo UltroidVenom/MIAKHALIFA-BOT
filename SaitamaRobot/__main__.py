@@ -77,12 +77,12 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/88a1139a1bb57f65d251b.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/2c97e3da4344b561cdb25.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 MIA KHALIFA is hosted on one of Gamerfucker's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Gamerfucker
-There are two ways of supporting him; [owner](t.me/Gamerfucker), or [INSTAGRAM](https://www.instagram.com/sastememeofficial/)."""
+There are two ways of supporting him; [owner](t.me/Gamerfucker), or [SUPPORT](https://t.me/Gamerzbots)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
