@@ -7,7 +7,6 @@ from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from datetime import datetime as dt
 import pybase64
-from base64 import b64decode
 from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
 from telethon import events
