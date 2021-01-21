@@ -6,7 +6,6 @@ from asyncio import sleep
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from datetime import datetime as dt
-from hachoir.parser import createParser
 import pybase64
 from base64 import b64decode
 from pySmartDL import SmartDL
