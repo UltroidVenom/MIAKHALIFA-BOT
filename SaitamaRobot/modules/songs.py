@@ -6,7 +6,6 @@ from asyncio import sleep
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from datetime import datetime as dt
-from pySmartDL import SmartDL
 from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
 from telethon import events
 
