@@ -17,7 +17,6 @@ import bs4
 from bs4 import BeautifulSoup
 
 
-from youtube_dl.utils import (DownloadError, ContentTooShortError,
 
                               ExtractorError, GeoRestrictedError,
                               MaxDownloadsReached, PostProcessingError,
