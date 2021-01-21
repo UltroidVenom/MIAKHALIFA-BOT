@@ -11,7 +11,6 @@ from telethon import events
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from validators.url import url
 from html import unescape
 from urllib.error import HTTPError
 import bs4
