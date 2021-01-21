@@ -18,9 +18,7 @@ from bs4 import BeautifulSoup
 
 
 
-                              ExtractorError, GeoRestrictedError,
-                              MaxDownloadsReached, PostProcessingError,
-                              UnavailableVideoError, XAttrMetadataError)
+  
 
 try:
 
